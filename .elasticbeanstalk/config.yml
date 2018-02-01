@@ -1,6 +1,6 @@
 branch-defaults:
   master:
-    environment: django-env
+    environment: ebdjango-env
     group_suffix: null
 environment-defaults:
   django-env:
