@@ -1,6 +1,6 @@
 branch-defaults:
   master:
-    environment: django-hello
+    environment: phillip-django-hello
     group_suffix: null
 environment-defaults:
   django-env:

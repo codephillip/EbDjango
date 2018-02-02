@@ -20,3 +20,19 @@ class PersonGroup(models.Model):
 
     def __unicode__(self):
         return self.name
+
+
+class Category(models.Model):
+    name = models.CharField(max_length=100)
+
+    def __unicode__(self):
+        return self.name
+
+
+class Ingredient(models.Model):
+    name = models.CharField(max_length=100)
+    notes = models.TextField(null=True, blank=True)
+    category = models.ForeignKey(Category, related_name='ingredients')
+
+    def st__unicode__r(self):
+        return self.name

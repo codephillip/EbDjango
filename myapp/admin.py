@@ -7,3 +7,5 @@ from myapp.models import *
 
 admin.site.register(Person)
 admin.site.register(PersonGroup)
+admin.site.register(Ingredient)
+admin.site.register(Category)
